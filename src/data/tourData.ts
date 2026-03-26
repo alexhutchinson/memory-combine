@@ -2,34 +2,34 @@ import type { Bucket, DistanceData } from '../types';
 
 export const TOUR_DATA: DistanceData[] = [
   // Wedges (55–90 yards)
-  { yards: 55,  tourMedian: 12.4, scratchBenchmark: 14.9, bucket: 'Wedges' },
-  { yards: 61,  tourMedian: 12.9, scratchBenchmark: 15.5, bucket: 'Wedges' },
-  { yards: 70,  tourMedian: 13.2, scratchBenchmark: 15.8, bucket: 'Wedges' },
-  { yards: 80,  tourMedian: 13.6, scratchBenchmark: 16.3, bucket: 'Wedges' },
-  { yards: 90,  tourMedian: 14.6, scratchBenchmark: 17.5, bucket: 'Wedges' },
+  { yards: 55,  tourMedian: 19.0, scratchBenchmark: 22.8, bucket: 'Wedges' },
+  { yards: 61,  tourMedian: 19.0, scratchBenchmark: 22.8, bucket: 'Wedges' },
+  { yards: 70,  tourMedian: 20.0, scratchBenchmark: 24.0, bucket: 'Wedges' },
+  { yards: 80,  tourMedian: 20.0, scratchBenchmark: 24.0, bucket: 'Wedges' },
+  { yards: 90,  tourMedian: 22.0, scratchBenchmark: 26.4, bucket: 'Wedges' },
 
   // Mid Irons (98–155 yards)
-  { yards: 98,  tourMedian: 15.8, scratchBenchmark: 19.0, bucket: 'Mid' },
-  { yards: 105, tourMedian: 16.8, scratchBenchmark: 20.2, bucket: 'Mid' },
-  { yards: 110, tourMedian: 17.3, scratchBenchmark: 20.8, bucket: 'Mid' },
-  { yards: 115, tourMedian: 17.9, scratchBenchmark: 21.5, bucket: 'Mid' },
-  { yards: 120, tourMedian: 18.5, scratchBenchmark: 22.2, bucket: 'Mid' },
-  { yards: 126, tourMedian: 19.3, scratchBenchmark: 23.2, bucket: 'Mid' },
-  { yards: 136, tourMedian: 20.2, scratchBenchmark: 24.2, bucket: 'Mid' },
-  { yards: 141, tourMedian: 21.0, scratchBenchmark: 25.2, bucket: 'Mid' },
-  { yards: 150, tourMedian: 22.8, scratchBenchmark: 27.4, bucket: 'Mid' },
-  { yards: 155, tourMedian: 24.0, scratchBenchmark: 28.8, bucket: 'Mid' },
+  { yards: 98,  tourMedian: 23.0, scratchBenchmark: 27.6, bucket: 'Mid' },
+  { yards: 105, tourMedian: 25.0, scratchBenchmark: 30.0, bucket: 'Mid' },
+  { yards: 110, tourMedian: 25.0, scratchBenchmark: 30.0, bucket: 'Mid' },
+  { yards: 115, tourMedian: 26.0, scratchBenchmark: 31.2, bucket: 'Mid' },
+  { yards: 120, tourMedian: 28.0, scratchBenchmark: 33.6, bucket: 'Mid' },
+  { yards: 126, tourMedian: 28.0, scratchBenchmark: 33.6, bucket: 'Mid' },
+  { yards: 136, tourMedian: 29.0, scratchBenchmark: 34.8, bucket: 'Mid' },
+  { yards: 141, tourMedian: 30.0, scratchBenchmark: 36.0, bucket: 'Mid' },
+  { yards: 150, tourMedian: 31.5, scratchBenchmark: 37.8, bucket: 'Mid' },
+  { yards: 155, tourMedian: 32.5, scratchBenchmark: 39.0, bucket: 'Mid' },
 
   // Long Irons (170–210 yards)
-  { yards: 170, tourMedian: 27.8, scratchBenchmark: 33.4, bucket: 'Long' },
-  { yards: 175, tourMedian: 29.6, scratchBenchmark: 35.5, bucket: 'Long' },
-  { yards: 176, tourMedian: 29.6, scratchBenchmark: 35.5, bucket: 'Long' },
-  { yards: 180, tourMedian: 30.8, scratchBenchmark: 37.0, bucket: 'Long' },
-  { yards: 189, tourMedian: 32.6, scratchBenchmark: 39.1, bucket: 'Long' },
-  { yards: 198, tourMedian: 34.2, scratchBenchmark: 41.0, bucket: 'Long' },
-  { yards: 202, tourMedian: 36.3, scratchBenchmark: 43.6, bucket: 'Long' },
-  { yards: 205, tourMedian: 37.6, scratchBenchmark: 45.1, bucket: 'Long' },
-  { yards: 210, tourMedian: 39.8, scratchBenchmark: 47.8, bucket: 'Long' },
+  { yards: 170, tourMedian: 34.5, scratchBenchmark: 41.4, bucket: 'Long' },
+  { yards: 175, tourMedian: 35.5, scratchBenchmark: 42.6, bucket: 'Long' },
+  { yards: 176, tourMedian: 35.5, scratchBenchmark: 42.6, bucket: 'Long' },
+  { yards: 180, tourMedian: 36.5, scratchBenchmark: 43.8, bucket: 'Long' },
+  { yards: 189, tourMedian: 38.0, scratchBenchmark: 45.6, bucket: 'Long' },
+  { yards: 198, tourMedian: 39.5, scratchBenchmark: 47.4, bucket: 'Long' },
+  { yards: 202, tourMedian: 40.5, scratchBenchmark: 48.6, bucket: 'Long' },
+  { yards: 205, tourMedian: 41.0, scratchBenchmark: 49.2, bucket: 'Long' },
+  { yards: 210, tourMedian: 42.0, scratchBenchmark: 50.4, bucket: 'Long' },
 ];
 
 export function getByBucket(bucket: Bucket): DistanceData[] {

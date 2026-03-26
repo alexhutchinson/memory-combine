@@ -12,7 +12,7 @@ interface Props {
 
 export function ResultsCard({ result, runningAvg, onNext, isLastShot }: Props) {
   const tierColor = getTierColor(result.feedback);
-  const isElite = result.feedback === 'Elite';
+  const isElite = result.feedback === 'Tour';
 
   return (
     <div className="flex flex-col h-full px-5 pt-4 pb-6 overflow-y-auto">

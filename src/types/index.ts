@@ -1,4 +1,4 @@
-export type FeedbackLabel = 'Elite' | 'Strong' | 'Solid' | 'Developing';
+export type FeedbackLabel = 'Tour' | 'Elite' | 'Scratch' | 'Solid' | 'Developing';
 export type Bucket = 'Wedges' | 'Mid' | 'Long';
 export type GameScreen = 'home' | 'playerEntry' | 'playing' | 'summary' | 'leaderboard';
 export type ShotPhase = 'entry' | 'result' | 'distanceSummary';
